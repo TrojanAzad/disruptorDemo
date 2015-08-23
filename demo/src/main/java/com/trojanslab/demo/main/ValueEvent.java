@@ -4,7 +4,7 @@ import com.lmax.disruptor.EventFactory;
 
 public final class ValueEvent
 {
-    private long value;
+    private long value=-1L;
 
     public long getValue()
     {
